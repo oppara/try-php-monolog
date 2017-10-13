@@ -3,6 +3,7 @@
     "type": "n",
     "require": {
         "vlucas/phpdotenv": "^2.4",
-        "monolog/monolog": "^1.23"
+        "monolog/monolog": "^1.23",
+        "swiftmailer/swiftmailer": "^6.0"
     }
 }
