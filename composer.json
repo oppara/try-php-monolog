@@ -1,0 +1,8 @@
+{
+    "name": "oppara/try-php-monolog",
+    "type": "n",
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "monolog/monolog": "^1.23"
+    }
+}
