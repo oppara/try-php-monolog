@@ -8,7 +8,7 @@ use Monolog\Handler\FingersCrossed\ErrorLevelActivationStrategy;
 
 
 $path = __DIR__ . '/logs/mono.log';
-$logger = new Logger('basic');
+$logger = new Logger('fingers_crossed');
 $logger->pushHandler(
     new FingersCrossedHandler(
         new RotatingFileHandler($path, 2, Logger::INFO),
